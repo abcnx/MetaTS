@@ -1,11 +1,11 @@
 /**
- * MetaTS - TypeScript Utility Library
+ * MetaTS — A TypeScript tool library for common utilities and helpers.
+ *
+ * @packageDocumentation
  */
 
-// Export your utility functions here
-export const version = '0.1.0';
-
-// Example utility function
-export const greet = (name: string): string => {
-  return `Hello, ${name}!`;
-};
+export * from './types.js';
+export * from './utils.js';
+export * from './array.js';
+export * from './string.js';
+export * from './object.js';
